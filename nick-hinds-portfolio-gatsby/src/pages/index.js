@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic01 from '../assets/images/traffictracer.gif'
+import pic02 from '../assets/images/finger_point_up.png'
+import pic03 from '../assets/images/solar.png'
+import pic04 from '../assets/images/ATATCockpit.png'
+import pic05 from '../assets/images/spaceship.png'
+import pic06 from '../assets/images/Twitter-logo-png-5859_-_Copy.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Nick Hinds"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'My Website' },
+                        { name: 'keywords', content: 'Portfolio, CV' },
                     ]}
                 >
                 </Helmet>
@@ -31,55 +31,56 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Traffic Tracer</h3>
+                                <p>An application that uses a businesses pre-existing camera system to gather foot traffic data.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/traffictracer" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Know Your Vote</h3>
+                                <p>An Android application that provides state specific rules and regulations for registering to vote and voting in general.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/knowyourvote" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Solar</h3>
+                                <p>A real time render of the solar system using javascript/webgl.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/solar" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>rasPi Display</h3>
+                                <p>A Raspberry Pi project using Python to green screen an image and web scrapping to display news headlines.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/raspidisplay" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Alien Invasion</h3>
+                                <p>A 2d alien invasion game written in Python.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/alieninvasion" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Twitter Scrapper</h3>
+                                <p>A web scrapper written in Python to gather tweets based off of a user entered keyword.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/twitterscrapper" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>A little about me</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>I am a recent grad at CSUMB (California State University Monterey Bay) from the Computer Science Program. I focused my studies and experience there on Software Engineering. Throughout school and now I have been working as a Techinical Support Analyst where from time to time I have been able to apply some of my knowledge gained from studies to my work. When I am not studying or I like to build DIY projects mostly with various Raspberry Pi boards and recently have been deliving more into projects that involve various computer vision technologies. Feel free to checkout my Linkdin and Github...</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="https://github.com/Nhinds88" className="button next">Github</Link></li>
+                                <li><Link to="www.linkedin.com/in/nicholas-m-hinds" className="button next">Linkdin</Link></li>
                             </ul>
                         </div>
                     </section>

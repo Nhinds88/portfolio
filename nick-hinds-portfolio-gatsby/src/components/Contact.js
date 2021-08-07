@@ -1,6 +1,6 @@
 import React from 'react'
 import profileIMG from "../assets/images/prof.png"
-import {Image} from 'react-bootstrap'
+// import {Image} from 'react-bootstrap'
 
 const Contact = (props) => (
     <section id="contact">
@@ -35,7 +35,7 @@ const Contact = (props) => (
                 </section>
                 <section>
                     <div className="contact-method">
-                        <Image src={profileIMG} alt="pic of me" width='100' fluid rounded />
+                        {/* <Image src={profileIMG} alt="pic of me" width='100' fluid rounded /> */}
                     </div>
                 </section>
                 <section>

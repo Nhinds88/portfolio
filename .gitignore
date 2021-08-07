@@ -1,0 +1,10 @@
+# Project dependencies
+nick-hinds-portfolio-gatsby/.cache
+nick-hinds-portfolio-gatsby/node_modules
+nick-hinds-portfolio-gatsby/yarn-error.log
+nick-hinds-portfolio-gatsby/package-lock.json
+nick-hinds-portfolio-gatsby/yarn.lock
+
+# Build directory
+nick-hinds-portfolio-gatsby/public
+nick-hinds-portfolio-gatsby/.DS_Store
